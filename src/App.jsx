@@ -9,15 +9,13 @@ import './App.scss';
 
 function App() {
   return (
-    <section className="main">
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={< HomePage />} />
-          <Route path="*" element={< PageNotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </section>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={< HomePage />} />
+        <Route path="*" element={< PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
