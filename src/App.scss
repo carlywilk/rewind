@@ -9,8 +9,12 @@
 }
 
 body {
-  background-color: black;
-  // @include background-pattern;
+  @include background-pattern;
+}
+
+.main {
+  // background-color: black;
+  
   
   // any universal background design should go here
 }
