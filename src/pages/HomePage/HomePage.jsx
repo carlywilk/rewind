@@ -1,5 +1,5 @@
 
-import { Carousel } from "../../components/Carousel/Carousel.jsx";
+// import { Carousel } from "../../components/Carousel/Carousel.jsx";
 import { CardScrollArea } from "../../components/CardScrollArea/CardScrollArea.jsx";
 
 import "./HomePage.scss";
