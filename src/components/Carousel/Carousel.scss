@@ -1,0 +1,34 @@
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.swiper {
+    background-color: black;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    &__image {
+        width: 10rem;
+    }
+
+    @include tablet {
+        margin: 0 auto;
+        &__image {
+            width: 30rem;
+            height: fit-content;
+        }
+    }
+
+    @include desktop {
+        max-width: 80rem;
+    }
+}
+
+swiper-container {
+    width: 800px;
+    height: fit-content;
+    line-height: 200px;
+    text-align: center;
+    background-color: lightblue;
+}
