@@ -19,7 +19,7 @@ register();
 export function Carousel() {
     return (
         <section className="swiper">
-            <swiper-container slides-per-view="3" space-between="20" scrollbar-clickable="true" mousewheel-invert="true">
+            <swiper-container pagination={true} slides-per-view="2" scrollbar="false" mousewheel-invert="true" loop="true" centeredSlides="true">
                 <swiper-slide> <img className="swiper__image" src={testImage1} alt="" /> </swiper-slide>
                 <swiper-slide> <img className="swiper__image" src={testImage2} alt="" /> </swiper-slide>
                 <swiper-slide> <img className="swiper__image" src={testImage3} alt="" /> </swiper-slide>
