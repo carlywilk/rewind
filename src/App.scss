@@ -1,15 +1,14 @@
+@use "./styles/partials/breakpoints" as *;
 @use "./styles/partials/colors" as *;
 @use "./styles/partials/mixins" as *;
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  
   color: $basic-white;
 }
 
 body {
   @include background-pattern;
-  
-  // any universal background design should go here
 }

@@ -12,15 +12,11 @@
         &::-webkit-scrollbar {
             width: 10px;
         }
-        &::-webkit-scrollbar-track {
-            // background: $basic-black; /* Color of the track */
-        }
         &::-webkit-scrollbar-thumb {
-            background: $bold-pink; /* Color of the thumb */
-            // border-radius: 5px; /* Rounded corners of the thumb */
+            background: $bold-pink;
         }
         &::-webkit-scrollbar-thumb:hover {
-            background: $primary-white; /* Color of the thumb on hover */
+            background: $primary-white;
         }
     }
     &__list {
