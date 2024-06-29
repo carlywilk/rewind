@@ -1,10 +1,14 @@
 
+import rewindLogo from "../../assets/logos/rewind-logo.png";
+
 import "./Footer.scss";
 
 export function Footer() {
     return (
         <section className="footer">
-            <p className="footer__content">© Carly Wilk. 2024. All Rights Reserved.</p>
+            <div className="footer__bar">
+                <img className="footer__logo" src={rewindLogo} alt="" />
+            </div>
         </section>
     );
 }

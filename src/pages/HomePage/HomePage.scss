@@ -4,22 +4,24 @@
 @use "../../styles/partials/typography" as *;
 
 .home {
+    // cursor: url("../../assets/cursors/64.svg");
     &__content {
         width: 100%;
-        background-color: black;
+        // background-color: black;
         color: white;
     }
 
     @include tablet {
         &__content {
             margin: 0 auto;
-            width: 90%;
+            // width: 90%;
         }
     }
 
     @include desktop {
         &__content {
-            max-width: 80rem;
+            padding-top: 7.5rem;
+            max-width: 90rem;
         }
     }
 }

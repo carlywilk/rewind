@@ -7,8 +7,15 @@
   padding: 0;
   box-sizing: border-box;
   color: $basic-white;
+  
 }
 
 body {
-  @include background-pattern;
+  // @include background-pattern;
+
+  // background: radial-gradient(circle, #e66465, #9198e5);
+  background: radial-gradient(circle, #fef5ac, #d297d7);
+  background-repeat: no-repeat;
+
+  cursor: url("../public/cursors/1.svg"), auto; // NOT WORKING
 }

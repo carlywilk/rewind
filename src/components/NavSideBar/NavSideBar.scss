@@ -1,0 +1,54 @@
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.nav {
+
+    &__icon {
+
+    }
+    &__button {
+        outline: none;
+        border: none;
+        background: transparent;
+    }
+    &__image {
+        width: 5rem;
+
+    }
+    &__label {
+        // color: $basic-black;
+        color: $bold-purple;
+    }
+
+    @include tablet {
+        &__icon {
+
+        }
+        &__button {
+        }
+        &__image {
+            width: 5rem;
+        }
+        &__label {
+        
+        }
+    }
+
+    @include desktop {
+        &__icon {
+
+        }
+        &__button {
+            padding-bottom: 3rem;
+        }
+        &__image {
+            width: 5rem;
+        }
+        &__label {
+            padding-top: 0.25rem;
+            font-size: 1.1rem;
+        }
+    }
+}

@@ -4,6 +4,7 @@ import { MoviesApi } from "../../utils/MoviesApiClass.jsx";
 
 import { AboutApp } from "../../components/AboutApp/AboutApp.jsx";
 import { CardScrollArea } from "../../components/CardScrollArea/CardScrollArea.jsx";
+import { NavSideBar } from "../../components/NavSideBar/NavSideBar.jsx";
 
 import "./HomePage.scss";
 
@@ -25,8 +26,13 @@ export function HomePage() {
 
     return (
         <section className="home">
-            <AboutApp />
-            <CardScrollArea moviesList={moviesList} />
+            <div className="home__content">
+                <div className="home__nav-section">
+                    <NavSideBar />
+                </div>
+            </div>
+            {/* <AboutApp /> */}
+            {/* <CardScrollArea moviesList={moviesList} /> */}
         </section>
     );
 }

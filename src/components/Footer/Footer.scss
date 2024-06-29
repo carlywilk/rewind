@@ -4,25 +4,40 @@
 @use "../../styles/partials/typography" as *;
 
 .footer {
-    &__content {
-        padding: 1rem 0 0.25rem;
+    &__bar {
+        padding: 0.5rem 2rem 0.5rem 0;
+        border-top: 1px solid $basic-black;
+        border-bottom: 1px solid $basic-black;
         width: 100%;
-        background-color: $basic-black;
+        display: flex;
+        background-color: $background-external;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        color: $bold-pink;
+        color: $basic-black;
+    }
+    &__logo {
+
     }
 
     @include tablet {
-        &__content {
-            margin: 0 auto;
-            width: 90%;
+        &__bar {
+            // margin: 0 auto;
+            // width: 90%;
+            justify-content: flex-end;
+        }
+        &__logo {
+            // margin-right: 2rem;
+            width: 10rem;
         }
     }
 
     @include desktop {
-        &__content {
-            max-width: 80rem;
+        &__bar {
+            // max-width: 80rem;
+        }
+        &__logo {
+            // width: 2rem;
+            
         }
     }
 }
