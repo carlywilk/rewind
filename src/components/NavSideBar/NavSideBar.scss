@@ -20,6 +20,11 @@
         outline: none;
         border: none;
         background: transparent;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+            cursor: pointer;
+        }
     }
     &__image {
         width: 3rem;

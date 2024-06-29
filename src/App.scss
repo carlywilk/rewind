@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   color: $basic-white;
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
@@ -16,8 +16,6 @@ html, body {
   // background: radial-gradient(circle, #e66465, #9198e5);
   background: radial-gradient(circle, #fef5ac, #d297d7);
   background-repeat: no-repeat;
-
-  cursor: url("../public/cursors/1.svg"), auto; // NOT WORKING
 
   @include tablet {
     height: 100%;

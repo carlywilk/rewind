@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 import computer1 from "../../assets/icons/computer-1.svg";
 import home1 from "../../assets/icons/home-1.svg";
@@ -33,10 +34,12 @@ export function NavSideBar() {
                     </button>
                 </div>
                 <div className="nav__icon">
-                    <button className="nav__button">
-                    <img className="nav__image" src={computer1} alt="" />
-                    <p className="nav__label">home</p>
-                    </button>
+                    {/* <button className="nav__button"> */}
+                    <Link to="/" className="nav__button">
+                        <img className="nav__image" src={computer1} alt="" />
+                        <p className="nav__label">home</p>
+                    </Link>
+                    {/* </button> */}
                 </div>
             </div>
         </nav>
