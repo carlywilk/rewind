@@ -13,29 +13,31 @@ export function NavSideBar() {
     return (
         <>
         <nav className="nav">
-            <div className="nav__icon">
-                <button className="nav__button">
-                    <img className="nav__image" src={search1} alt="" />
-                    <p className="nav__label">search</p>
-                </button>
-            </div>
-            <div className="nav__icon">
-                <button className="nav__button">
-                    <img className="nav__image" src={randomPurple} alt="" />
-                    <p className="nav__label">surprise</p>
-                </button>
-            </div>
-            <div className="nav__icon">
-                <button className="nav__button">
-                    <img className="nav__image" src={user3} alt="" />
-                    <p className="nav__label">profile</p>
-                </button>
-            </div>
-            <div className="nav__icon">
-                <button className="nav__button">
-                <img className="nav__image" src={computer1} alt="" />
-                <p className="nav__label">home</p>
-                </button>
+            <div className="nav__container">
+                <div className="nav__icon">
+                    <button className="nav__button">
+                        <img className="nav__image" src={search1} alt="" />
+                        <p className="nav__label">search</p>
+                    </button>
+                </div>
+                <div className="nav__icon">
+                    <button className="nav__button">
+                        <img className="nav__image" src={randomPurple} alt="" />
+                        <p className="nav__label">surprise</p>
+                    </button>
+                </div>
+                <div className="nav__icon">
+                    <button className="nav__button">
+                        <img className="nav__image" src={user3} alt="" />
+                        <p className="nav__label">profile</p>
+                    </button>
+                </div>
+                <div className="nav__icon">
+                    <button className="nav__button">
+                    <img className="nav__image" src={computer1} alt="" />
+                    <p className="nav__label">home</p>
+                    </button>
+                </div>
             </div>
         </nav>
         </>

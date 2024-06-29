@@ -4,9 +4,17 @@
 @use "../../styles/partials/typography" as *;
 
 .nav {
-
+    border-bottom: 1px solid $basic-black;
+    background-color: $background-external;
+    &__container {
+        margin: 0 auto;
+        padding: 1rem;
+        max-width: 31.25rem;
+        display: flex;
+        justify-content: space-between;
+    }
     &__icon {
-
+        
     }
     &__button {
         outline: none;
@@ -14,11 +22,10 @@
         background: transparent;
     }
     &__image {
-        width: 5rem;
+        width: 3rem;
 
     }
     &__label {
-        // color: $basic-black;
         color: $bold-purple;
     }
 
@@ -29,7 +36,7 @@
         &__button {
         }
         &__image {
-            width: 5rem;
+            // width: 5rem;
         }
         &__label {
         
@@ -37,6 +44,12 @@
     }
 
     @include desktop {
+        padding-top: 2rem;
+        border-bottom: none;
+        background-color: transparent;
+        &__container {
+            display: block;
+        }
         &__icon {
 
         }

@@ -5,6 +5,8 @@
 
 .home {
     // cursor: url("../../assets/cursors/64.svg");
+    display: flex;
+    flex-direction: column-reverse;
     &__content {
         width: 100%;
         // background-color: black;
@@ -15,13 +17,16 @@
         &__content {
             margin: 0 auto;
             // width: 90%;
+            // display: flex;
         }
     }
 
     @include desktop {
+        display: block;
         &__content {
-            padding-top: 7.5rem;
+            padding-top: 1.5rem;
             max-width: 90rem;
+            display: flex;
         }
     }
 }

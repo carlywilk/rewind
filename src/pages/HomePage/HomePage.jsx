@@ -4,6 +4,8 @@ import { MoviesApi } from "../../utils/MoviesApiClass.jsx";
 
 import { AboutApp } from "../../components/AboutApp/AboutApp.jsx";
 import { CardScrollArea } from "../../components/CardScrollArea/CardScrollArea.jsx";
+import { Footer } from "../../components/Footer/Footer.jsx";
+import { MovieWindow } from "../../components/MovieWindow/MovieWindow.jsx";
 import { NavSideBar } from "../../components/NavSideBar/NavSideBar.jsx";
 
 import "./HomePage.scss";
@@ -30,9 +32,11 @@ export function HomePage() {
                 <div className="home__nav-section">
                     <NavSideBar />
                 </div>
+            <MovieWindow />
             </div>
             {/* <AboutApp /> */}
             {/* <CardScrollArea moviesList={moviesList} /> */}
+            <Footer />
         </section>
     );
 }

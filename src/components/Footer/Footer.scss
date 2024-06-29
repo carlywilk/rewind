@@ -5,9 +5,7 @@
 
 .footer {
     &__bar {
-        padding: 0.5rem 2rem 0.5rem 0;
-        border-top: 1px solid $basic-black;
-        border-bottom: 1px solid $basic-black;
+        padding: 0.5rem 0;
         width: 100%;
         display: flex;
         background-color: $background-external;
@@ -16,7 +14,9 @@
         color: $basic-black;
     }
     &__logo {
-
+        margin: 0 auto;
+        width: 80%;
+        max-width: 15rem;
     }
 
     @include tablet {
@@ -27,17 +27,20 @@
         }
         &__logo {
             // margin-right: 2rem;
-            width: 10rem;
+            width: 15rem;
         }
     }
 
     @include desktop {
         &__bar {
             // max-width: 80rem;
+            padding: 0.5rem 2rem 0.5rem 0;
+            border-top: 1px solid $basic-black;
+            border-bottom: 1px solid $basic-black;
         }
         &__logo {
             // width: 2rem;
-            
+            margin: 0;
         }
     }
 }

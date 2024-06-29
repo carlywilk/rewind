@@ -1,0 +1,58 @@
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.window {
+    margin: 1rem auto;
+    width: 90%;
+    &__top-bar {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: $bold-purple;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: right;
+    }
+    &__exit-container {
+        padding: 0.25rem 0 0.1rem;
+    }
+    &__exit {
+        margin-right: 1rem;
+        padding: 0 0.35rem;
+        border: 1px solid $basic-white;
+        border-radius: 25%;
+        background-color: $bold-pink;
+    }
+    &__content {
+        padding: 0.75rem 0.5rem;
+        border: 3px solid $bold-purple;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: $primary-white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+        color: $bold-pink;
+    }
+
+    // @include tablet {}
+
+    @include desktop {
+        margin: 0 auto;
+        width: 80%;
+        &__top-bar {
+            background-color: $bold-purple;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            text-align: right;
+        }
+        &__exit {
+            margin-right: 1rem;
+            padding: 0 0.5rem;
+            border: 1px solid $basic-white;
+            border-radius: 25%;
+            background-color: $bold-pink;
+        }
+    }
+}
