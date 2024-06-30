@@ -25,6 +25,9 @@
         &:hover {
             cursor: pointer;
         }
+        &:active {
+            transform: translateY(2px);
+        }
     }
     &__image {
         width: 3rem;
@@ -32,6 +35,11 @@
     }
     &__label {
         color: $bold-purple;
+        &:hover {
+            background-color: $bold-purple;
+            color: $basic-white;
+            font-style: italic;
+        }
     }
 
     @include tablet {
@@ -49,7 +57,7 @@
     }
 
     @include desktop {
-        padding-top: 2rem;
+        padding-top: 6.5rem;
         border-bottom: none;
         background-color: transparent;
         &__container {
@@ -65,7 +73,7 @@
             width: 5rem;
         }
         &__label {
-            padding-top: 0.25rem;
+            // padding-top: 0.25rem;
             font-size: 1.1rem;
         }
     }

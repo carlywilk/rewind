@@ -41,6 +41,7 @@
     @include desktop {
         margin: 0 auto;
         width: 80%;
+        height: 90%;
         &__top-bar {
             background-color: $bold-purple;
             font-family: Arial, Helvetica, sans-serif;

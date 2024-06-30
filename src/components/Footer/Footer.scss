@@ -32,14 +32,19 @@
     }
 
     @include desktop {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
         &__bar {
             // max-width: 80rem;
-            padding: 0.5rem 2rem 0.5rem 0;
+            padding: 0.25rem 2rem 0.25rem 0;
             border-top: 1px solid $basic-black;
             border-bottom: 1px solid $basic-black;
         }
         &__logo {
             // width: 2rem;
+            width: 10rem;
             margin: 0;
         }
     }
