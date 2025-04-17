@@ -1,12 +1,48 @@
-# React + Vite
+# rewind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Overview:
+This project is an app that hosts a list of movies one can shuffle through, either getting inspiration or deciding on a movie for them to watch, ones that are throwback, feel good movies from your childhood and young adulthood. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Rewind, sit back, and relax 🎬
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Table of Contents
+
+
+## Features:
+
+### Images:
+
+
+## Instructions & Installation:
+
+### Tech Stack / Built With
+- include badges here?
+
+### Environment Variables
+
+### Run Locally
+To get a local copy up and running, follow these steps:
+
+#### Prerequisites
+
+#### Installation
+
+(example below)
+1. Clone the repository
+(here is where to include code block of terminal command)
+2. Install NPM packages
+3. so on...
+
+
+### Usage
+
+#### API Reference
+
+
+## Insights & Future Directions
+### Roadmap
+
+
+## Acknowledgements
